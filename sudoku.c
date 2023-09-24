@@ -34,7 +34,7 @@ int main(void) {
         if(choi == 1) {system("cls"); print(sudoku,licznik);}
         choi = 0;
         // giving indexes
-        printf("\nPodaj pierwsza wsp: "); scanf("%d",&first); printf("Podaj druga wsp: "); scanf("%d",&second);
+        printf("\nFirst coordinate: "); scanf("%d",&first); printf("Second coordinate: "); scanf("%d",&second);
 
         printf("Inserting: "); scanf("%d",&var); 
         if(var<=0 || var > 9 || first<0 || first >9 || second < 0 || second > 9) { printf("You kiding?\n"); continue; }
@@ -63,4 +63,3 @@ int main(void) {
     printf("\nBRAVO!!\n\n");
     system("pause");
 }
-
